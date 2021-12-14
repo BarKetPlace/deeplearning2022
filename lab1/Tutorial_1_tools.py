@@ -163,4 +163,21 @@ def generate_test_plots(X_test,Y_test,classifier,mu_0,cov_0,mu_1,cov_1):
     
 
     plt.show()
+    
+def generate_monty_plot(monty_python_simulation,swap):
+    success = []
+
+    for i in range(10000):
+        car_is_behind_door = np.random.randint(1,3+1)
+        door_chosen = monty_python_simulation(car_is_behind_door,swap)
+        success.append(door_chosen==car_is_behind_door)
+
+    plt.plot(np.arange(1,len(success)+1),np.cumsum(success)/np.arange(1,len(success)+1))
+    plt.xlabel('iterations')
+    plt.ylabel('average success')
+    if swap==True: 
+        plt.title('Monty Python Hall problem - changing strategy')
+    else : 
+        plt.title('Monty Python Hall problem - keeping strategy')
+    print('Average success is {:.2f} %'.format(np.mean(success)*100))
 
