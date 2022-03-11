@@ -1,0 +1,27 @@
+0 ; <NllLossBackward0 object at 0x7f9a056f21c0>
+1 ; <LogSoftmaxBackward0 object at 0x7f9a057dc3d0>
+2 ; <AddmmBackward0 object at 0x7f9a0080f5e0>
+3 ; Leaf <AccumulateGrad object at 0x7f9a0583adf0>
+3 ; <ReluBackward0 object at 0x7f9a0583a160>
+4 ; <AddmmBackward0 object at 0x7f9a055a2cd0>
+5 ; Leaf <AccumulateGrad object at 0x7f9a055a2460>
+5 ; <ReluBackward0 object at 0x7f9a055a2880>
+6 ; <AddmmBackward0 object at 0x7f9a056f0820>
+7 ; Leaf <AccumulateGrad object at 0x7f9a0584ceb0>
+7 ; <ViewBackward0 object at 0x7f9a0584c880>
+8 ; <MaxPool2DWithIndicesBackward0 object at 0x7f9a007e5e80>
+9 ; <ReluBackward0 object at 0x7f9a007e5d30>
+10 ; <MkldnnConvolutionBackward0 object at 0x7f9a007e5310>
+11 ; <MaxPool2DWithIndicesBackward0 object at 0x7f9a055ae070>
+12 ; <ReluBackward0 object at 0x7f9a055ae1c0>
+13 ; <MkldnnConvolutionBackward0 object at 0x7f9a055ae6d0>
+14 ; Leaf <AccumulateGrad object at 0x7f9a055ca2b0>
+14 ; Leaf <AccumulateGrad object at 0x7f9a055ca8e0>
+11 ; Leaf <AccumulateGrad object at 0x7f9a055ae9d0>
+11 ; Leaf <AccumulateGrad object at 0x7f9a055ae730>
+7 ; <TBackward0 object at 0x7f9a0584c760>
+8 ; Leaf <AccumulateGrad object at 0x7f9a007e57c0>
+5 ; <TBackward0 object at 0x7f9a055a28b0>
+6 ; Leaf <AccumulateGrad object at 0x7f9a007e55b0>
+3 ; <TBackward0 object at 0x7f9a0583af70>
+4 ; Leaf <AccumulateGrad object at 0x7f9a0582b130>
